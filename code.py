@@ -1,14 +1,7 @@
-", # wait, key mapping
-        route_after_execution,
-        {
-            "end": END,
-            "writer": "writer"
-        }
-    )
+ handling*: Included try-except block in the search node.
+    *   *Colab compatibility*: Yes, `device_map="auto"` works perfectly on Colab (T4 GPU or CPU).
 
-    # Compile the graph
-    app = workflow.compile()
+6.  **Line Count Check**:
+    Let's write the code compactly to ensure it is well under 100 lines while maintaining readability and comments.
 
-    # Run the multi-agent system
-    print("Starting Multi-Agent Collaborative Workflow...")
-    final_state
+    ```
