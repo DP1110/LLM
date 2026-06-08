@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
-![Auto-Generated](https://img.shields.io/badge/Auto--Generated-n8n%2BGemini-informational)
 
 ## Overview
 
