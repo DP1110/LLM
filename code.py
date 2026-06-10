@@ -1,9 +1,9 @@
-pip install` if it's strictly Colab. Let's do:
-    ```python
-    import sys
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "langgraph", "duckduckgo-search"])
-    ```
-    This is extremely robust and works everywhere.
+# Install required libraries quietly
+!pip install -q langgraph langchain langchain-community transformers torch duckduckgo-search
 
-    
+import os
+from typing import TypedDict, List
+from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
+from langchain_community.tools import DuckDuckGoSearchRun
+from langchain_community.llms import HuggingFacePipeline
+from
